@@ -8,6 +8,7 @@ Pod::Spec.new do |spec|
     spec.license                  = { :type => 'MIT', :text => 'License text'}
     spec.summary                  = 'WMNetworkUtils is an Webmotors private HTTP networking library utils for using with WMNetwork.'
     spec.ios.deployment_target    = '13.0'
+    spec.swift_version    =  '5.0'
     spec.static_framework = true
     spec.dependency 'DatadogCore'
     spec.dependency 'PromiseKit'
